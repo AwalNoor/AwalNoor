@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>KSR 121</title>
+
+    <!-- Botstrap Link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+
+    <!-- AOS Link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg fixed-top navbar-dark shadow-sm"
+      style="background-color: #002b5b"
+    >
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#"
+          >KSR <span class="text-danger">121</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Beranda</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#about">Tentang Kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#kegiatan">Kegiatan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#artikel">Artikel</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#contact">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Jumbotron -->
+    <section class="jumbotron mt-5 text-center">
+      <h1
+        class="display-4 mt-5 fw-bold text-light pt-5"
+        data-aos="flip-up"
+        data-aos-delay="200"
+        data-aos-duration="500"
+      >
+        UKM KSR <br />PMI UNIT <span class="text-danger">121</span>
+      </h1>
+      <p
+        class="lead text-light"
+        data-aos="flip-up"
+        data-aos-delay="200"
+        data-aos-duration="500"
+      >
+        POITEKNIK NEGERI UJUNG PANDANG
+      </p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#F9F5EB"
+          fill-opacity="1"
+          d="M0,256L48,261.3C96,267,192,277,288,288C384,299,480,309,576,298.7C672,288,768,256,864,250.7C960,245,1056,267,1152,282.7C1248,299,1344,309,1392,314.7L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Jumbotron End -->
+
+    <!-- Story -->
+    <section class="story pt-5" id="about">
+      <div class="container">
+        <div class="row text-center mt-4">
+          <h2>Tentang Kami</h2>
+          <div class="col mt-4"></div>
+        </div>
+        <div class="row" id="sejarah">
+          <h5 class="text-center">Sejarah 121</h5>
+          <div class="col-md-6">
+            <p class="lh-lg" data-aos="fade-right">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Praesentium quam quos, explicabo nisi reprehenderit qui blanditiis
+              recusandae, consequatur inventore amet, eligendi aspernatur at
+              ipsum quo soluta provident neque aliquid voluptatem id tempora
+              minima sint. Ut nemo asperiores dolore illo sunt. Alias quidem
+              aspernatur, aut vero itaque quasi tempora repudiandae, corrupti at
+              hic voluptatem a qui possimus dolorem velit dolorum nesciunt nemo
+              corporis excepturi inventore! Commodi maxime voluptatibus corrupti
+              itaque ducimus! <br />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut optio
+              assumenda corporis autem mollitia quas voluptates delectus amet,
+              dignissimos aperiam architecto aspernatur aut debitis facilis
+              aliquid, fugiat, recusandae ducimus. Deleniti distinctio repellat
+              quibusdam! Dolorum obcaecati inventore odit quas minus debitis,
+              necessitatibus nemo omnis aperiam? Culpa assumenda delectus,
+              consequatur minus sequi earum suscipit officia voluptatem
+              blanditiis repudiandae laboriosam quasi rem quo similique deserunt
+              porro, numquam tempore tenetur molestias saepe sed natus?
+            </p>
+          </div>
+          <div class="col-md-6">
+            <p class="lh-lg" data-aos="fade-right" data-aos-offset="400">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi,
+              dolore! Hic ipsam voluptates expedita mollitia, beatae odit at
+              temporibus? Cumque hic deserunt neque quae architecto officiis
+              amet unde dolorem similique optio sint facilis nulla iusto maxime
+              voluptas nisi accusamus modi velit, ullam error culpa ipsa soluta
+              officia? Ad fuga laudantium, excepturi, laborum soluta saepe
+              officia eaque quisquam voluptates ullam doloribus harum est enim
+              culpa, explicabo non neque tenetur doloremque odio numquam a
+              obcaecati? Quae fuga soluta atque voluptate itaque consequatur,
+              nostrum, adipisci quibusdam laboriosam corporis accusamus. Nulla,
+              asperiores? Iste tempore adipisci molestiae animi repellat
+              veritatis et eaque iusto debitis exercitationem?
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-5" id="visi">
+          <h5 class="text-center mt-4 mb-5" data-aos="zoom-in">
+            Visi Dan Misi
+          </h5>
+          <div class="col-md text-center">
+            <div
+              class="card mb-3 m-auto"
+              style="max-width: 25rem; background-color: #f1eee9"
+              data-aos="fade-up"
+            >
+              <div class="card-header"><h5>Visi</h5></div>
+              <div class="card-body">
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur. <br />
+                  Lorem ipsum dolor, sit amet consectetur adipisicing. <br />
+                  Lorem ipsum dolor sit amet.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 text-center">
+            <div
+              class="card mb-3 m-auto"
+              style="max-width: 25rem; background-color: #f1eee9"
+              data-aos="fade-up"
+            >
+              <div class="card-header"><h5>Misi</h5></div>
+              <div class="card-body">
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur. <br />
+                  Lorem ipsum dolor, sit amet consectetur adipisicing. <br />
+                  Lorem ipsum dolor sit amet.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#EA5455"
+          fill-opacity="1"
+          d="M0,224L40,208C80,192,160,160,240,165.3C320,171,400,213,480,202.7C560,192,640,128,720,117.3C800,107,880,149,960,149.3C1040,149,1120,107,1200,122.7C1280,139,1360,213,1400,250.7L1440,288L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Story End -->
+
+    <!-- Kegiatan -->
+    <section id="kegiatan" class="pt-5 text-light">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md mt-4">
+            <h2 data-aos="fade-down">Kegiatan</h2>
+          </div>
+        </div>
+        <div class="row mt-1 p-4">
+          <div class="col-md-4 pt-md-3 col-xl-2">
+            <div class="card" data-aos="zoom-in-down">
+              <img
+                src="img/KEGIATAN/dondar.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text text-center">Donor Darah</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8 pt-md-3 col-xl-4" data-aos="fade-left">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Molestias a reiciendis blanditiis delectus exercitationem
+              praesentium minima saepe, ullam ut accusantium rerum natus commodi
+              tempore dolorem veniam laborum neque sunt eveniet distinctio
+              tempora, dicta quo. Eveniet ut optio dolorem quia eligendi.
+            </p>
+            <button
+              type="submit"
+              class="btn mb-4"
+              style="background-color: #f9f5eb"
+            >
+              Selengkapnya
+            </button>
+          </div>
+          <div class="col-md-4 mt-md-3 col-xl-2">
+            <div class="card" data-aos="zoom-in-down" data-aos-delay="100">
+              <img
+                src="img/KEGIATAN/tanam-pohon.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text text-center">Penanaman Pohon</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-8 pt-md-3 col-xl-4"
+            data-aos="fade-left"
+            data-aos-delay="100"
+          >
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Molestias a reiciendis blanditiis delectus exercitationem
+              praesentium minima saepe, ullam ut accusantium rerum natus commodi
+              tempore dolorem veniam laborum neque sunt eveniet distinctio
+              tempora, dicta quo. Eveniet ut optio dolorem quia eligendi.
+            </p>
+            <button
+              type="submit"
+              class="btn mb-4"
+              style="background-color: #f9f5eb"
+            >
+              Selengkapnya
+            </button>
+          </div>
+          <div class="col-md-4 mt-md-3 col-xl-2">
+            <div class="card" data-aos="zoom-in-down" data-aos-delay="150">
+              <img
+                src="img/KEGIATAN/buka-bersama.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text text-center">Buka Bersama</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-8 pt-md-3 col-xl-4"
+            data-aos="fade-left"
+            data-aos-delay="150"
+          >
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Molestias a reiciendis blanditiis delectus exercitationem
+              praesentium minima saepe, ullam ut accusantium rerum natus commodi
+              tempore dolorem veniam laborum neque sunt eveniet distinctio
+              tempora, dicta quo. Eveniet ut optio dolorem quia eligendi.
+            </p>
+            <button
+              type="submit"
+              class="btn mb-4"
+              style="background-color: #f9f5eb"
+            >
+              Selengkapnya
+            </button>
+          </div>
+          <div class="col-md-4 pt-md-3 col-xl-2">
+            <div class="card" data-aos="zoom-in-down" data-aos-delay="200">
+              <img
+                src="img/KEGIATAN/santunan.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text text-center">Santunan Panti Asuhan</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-8 mt-md-3 col-xl-4"
+            data-aos="fade-left"
+            data-aos-delay="200"
+          >
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Molestias a reiciendis blanditiis delectus exercitationem
+              praesentium minima saepe, ullam ut accusantium rerum natus commodi
+              tempore dolorem veniam laborum neque sunt eveniet distinctio
+              tempora, dicta quo. Eveniet ut optio dolorem quia eligendi.
+            </p>
+            <button type="submit" class="btn" style="background-color: #f9f5eb">
+              Selengkapnya
+            </button>
+          </div>
+        </div>
+        <!-- <div class="row mt-lg-4 p-4"></div> -->
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#E4DCCF"
+          fill-opacity="1"
+          d="M0,224L34.3,229.3C68.6,235,137,245,206,245.3C274.3,245,343,235,411,229.3C480,224,549,224,617,218.7C685.7,213,754,203,823,186.7C891.4,171,960,149,1029,154.7C1097.1,160,1166,192,1234,208C1302.9,224,1371,224,1406,224L1440,224L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
+    <!-- Kegiatan End -->
+
+    <!-- Artikel -->
+    <section id="artikel" class="pt-5">
+      <div class="container">
+        <div class="row text-center justify-content-center">
+          <div class="col-md mt-4 mb-4" data-aos="fade-down">
+            <h2>Artikel</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6 col-lg-4">
+            <div class="card mt-3" data-aos="zoom-in-up">
+              <div class="card-body">
+                <h5 class="card-title">Judul Artikel</h5>
+                <p class="card-text">
+                  With supporting text below as a natural lead-in to additional
+                  content.
+                </p>
+                <a href="#" class="btn btn-primary">Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card mt-3" data-aos="zoom-in-up" data-aos-delay="100">
+              <div class="card-body">
+                <h5 class="card-title">Judul Artikel</h5>
+                <p class="card-text">
+                  With supporting text below as a natural lead-in to additional
+                  content.
+                </p>
+                <a href="#" class="btn btn-primary">Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card mt-3" data-aos="zoom-in-up" data-aos-delay="150">
+              <div class="card-body">
+                <h5 class="card-title">Judul Artikel</h5>
+                <p class="card-text">
+                  With supporting text below as a natural lead-in to additional
+                  content.
+                </p>
+                <a href="#" class="btn btn-primary">Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card mt-3" data-aos="zoom-in-up" data-aos-delay="200">
+              <div class="card-body">
+                <h5 class="card-title">Judul Artikel</h5>
+                <p class="card-text">
+                  With supporting text below as a natural lead-in to additional
+                  content.
+                </p>
+                <a href="#" class="btn btn-primary">Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card mt-3" data-aos="zoom-in-up" data-aos-delay="250">
+              <div class="card-body">
+                <h5 class="card-title">Judul Artikel</h5>
+                <p class="card-text">
+                  With supporting text below as a natural lead-in to additional
+                  content.
+                </p>
+                <a href="#" class="btn btn-primary">Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card mt-3" data-aos="zoom-in-up" data-aos-delay="300">
+              <div class="card-body">
+                <h5 class="card-title">Judul Artikel</h5>
+                <p class="card-text">
+                  With supporting text below as a natural lead-in to additional
+                  content.
+                </p>
+                <a href="#" class="btn btn-primary">Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="row mt-md-4 justify-content-center"></div> -->
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#F9F5EB"
+          fill-opacity="1"
+          d="M0,64L34.3,69.3C68.6,75,137,85,206,112C274.3,139,343,181,411,176C480,171,549,117,617,112C685.7,107,754,149,823,186.7C891.4,224,960,256,1029,256C1097.1,256,1166,224,1234,192C1302.9,160,1371,128,1406,112L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Artikel End -->
+
+    <!-- Contact -->
+    <section id="contact" class="justify-content-center pt-5">
+      <div class="container">
+        <div class="row text-center pt-4">
+          <div class="col" data-aos="fade-down">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-6">
+            <form class="mt-3">
+              <div class="mb-3" data-aos="fade-right">
+                <label for="nama" class="form-label fw-bold">Full Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Nama Lengkap"
+                  id="nama"
+                  aria-describedby="nama"
+                />
+              </div>
+              <div class="mb-3" data-aos="fade-right" data-aos-delay="100">
+                <label for="email" class="form-label fw-bold">Email</label>
+                <input
+                  type="email"
+                  placeholder="Email"
+                  class="form-control"
+                  id="email"
+                />
+              </div>
+              <div class="mb-5" data-aos="fade-right" data-aos-delay="150">
+                <label for="pesan" class="form-label fw-bold">Messages</label>
+                <textarea
+                  class="form-control"
+                  placeholder="Input your massages"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                ></textarea>
+                <button type="submit" class="btn btn-primary mt-3">
+                  Kirim
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#002b5b"
+          fill-opacity="1"
+          d="M0,160L48,181.3C96,203,192,245,288,256C384,267,480,245,576,234.7C672,224,768,224,864,240C960,256,1056,288,1152,293.3C1248,299,1344,277,1392,266.7L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Contact End -->
+
+    <!-- Footer -->
+    <footer class="text-light text-center text-lg-start">
+      <div class="container p-4">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0 text-center">
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#" class="text-light">Home</a>
+              </li>
+              <li>
+                <a href="#story" class="text-light">Tentang Kami</a>
+              </li>
+              <li>
+                <a href="#kegiatan" class="text-light">Kegiatan</a>
+              </li>
+              <li>
+                <a href="#artikel" class="text-light">Artikel</a>
+              </li>
+              <li>
+                <a href="#contact" class="text-light">Kontak</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0 text-center">
+            <h5 class="text-uppercase mb-2">Social Media</h5>
+
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a
+                  href="https://www.instagram.com/ksr121pnup/"
+                  class="text-light"
+                  ><i class="bi bi-instagram"></i> UKM KSR PMI Unit 121</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#!" class="text-light"
+                  ><i class="bi bi-facebook"></i> UKM KSR PMI Unit 121</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#!" class="text-light"
+                  ><i class="bi bi-twitter"></i> UKM KSR PMI Unit 121</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6 col-md-6 mb-4 mb-md-0 text-center">
+            <h5 class="text-uppercase">Alamat</h5>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1986.9193143299176!2d119.47980155776517!3d-5.129680599999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbefcc5f3a7e499%3A0xe59ca0474d9261eb!2sMarkas%20UKM%20KSR%20PMI%20Unit%20121%20PNUP!5e0!3m2!1sid!2sid!4v1680600751304!5m2!1sid!2sid"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2020 Copyright:
+        <a class="text-light" href="https://mdbootstrap.com/"
+          >UKM KSR PMI Unit 121</a
+        >
+      </div>
+    </footer>
+    <!-- Footer End-->
+
+    <!-- Bootstrap Script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

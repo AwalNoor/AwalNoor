@@ -1,0 +1,42 @@
+.jumbotron {
+    /* background-color: #73777B; */
+    background-image: url(img/bg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 5rem;
+    background-size: 100%;
+  }
+  
+  .story {
+      background-color: #F9F5EB;
+  }
+  
+  .image1 {
+      width: 200px;
+  }
+  
+  .visi {
+      background-color: #73777B;
+  }
+  
+  #kegiatan {
+      background-color: #EA5455;
+  }
+  
+  #artikel {
+      background-color: #E4DCCF;
+  }
+  
+  #contact {
+      background-color: #F9F5EB;
+  }
+  
+  footer {
+      background-color: #002b5b;
+  }
+  
+  footer a {
+      text-decoration: none;
+  }
+  
+  
